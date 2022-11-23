@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+nav #mySidenav {
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 20px;
+  color: hsl(0deg, 0%, 41%);
+  z-index: 100;
+}
+nav #mySidenav .sidenam {
+  margin-bottom: 30px;
+}
+nav #mySidenav .sidenam a:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+nav #mySidenav .sidenam > div {
+  padding: 10px 0;
+}
+nav #mySidenav .sidenam > div a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 41%);
+}
+nav #mySidenav .sidenam > div a + div {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+nav #mySidenav .sidenam > div a + div div {
+  padding: 10px 0;
+}
+nav #mySidenav .sidenam > div a + div div:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+nav #mySidenav .sidenam span {
+  padding-left: 10px;
+}
+nav #mySidenav .sidenam .close-m {
+  height: 60px;
+}
+nav #mySidenav .sidenam .close-m svg {
+  float: right;
+}
+nav #mySidenav .side-btn div {
+  text-align: center;
+  padding: 10px 0;
+}
+nav #mySidenav .side-btn .regi {
+  margin-top: 10px;
+  border: 2px solid hsl(0deg, 0%, 41%);
+  border-radius: 15px;
+}
+nav #mySidenav .side-btn .login:hover, nav #mySidenav .side-btn .regi:hover {
+  color: black;
+}
+nav #mySidenav .side-btn .regi:hover {
+  border-color: black;
+}
+nav .navsect {
+  padding: 21px 40px;
+  overflow: hidden;
+}
+nav .navsect .mobile .logo, nav .navsect .mobile .menu {
+  display: inline-block;
+}
+nav .navsect .mobile .menu {
+  float: right;
+}
+nav .navsect img, nav .navsect a {
+  float: left;
+  display: block;
+  padding: 15px 22px;
+  color: hsl(0deg, 0%, 41%);
+  text-decoration: none;
+}
+nav .navsect img {
+  height: 55px;
+}
+nav .navsect a:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+nav .navsect span svg {
+  height: 9px;
+}
+nav .navsect a span {
+  margin-left: 9px;
+}
+nav .navsect .left-s {
+  float: left;
+}
+nav .navsect .left-s #fetli {
+  position: absolute;
+  top: 10%;
+  left: 100px;
+  color: hsl(0deg, 0%, 41%);
+  box-shadow: 0 0 5px hsl(0deg, 0%, 41%);
+  padding: 24px;
+  border-radius: 10px;
+}
+nav .navsect .left-s #fetli > div:not(:last-child) {
+  margin-bottom: 18px;
+}
+nav .navsect .left-s #fetli > div svg {
+  margin-right: 15px;
+}
+nav .navsect .left-s #fetli > div:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+nav .navsect .left-s #sub {
+  position: absolute;
+  top: 10%;
+  left: 300px;
+  color: hsl(0deg, 0%, 41%);
+  box-shadow: 0 0 5px hsl(0deg, 0%, 41%);
+  padding: 24px;
+  border-radius: 10px;
+}
+nav .navsect .left-s #sub > div:not(:last-child) {
+  margin-bottom: 18px;
+}
+nav .navsect .left-s #sub > div:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+nav .navsect .btn-side {
+  float: right;
+}
+nav .navsect .btn-side #regi {
+  border: 2px solid hsl(0deg, 0%, 41%);
+  border-radius: 10px;
+}
+nav .navsect .btn-side #regi:hover {
+  border-color: hsl(0deg, 0%, 8%);
+}
+
+main .mn-sect {
+  padding: 45px 129px 45px 165px;
+  position: relative;
+}
+main .mn-sect .banner {
+  width: 484px;
+}
+main .mn-sect .banner img {
+  width: 100%;
+  height: 640px;
+}
+main .desc {
+  width: 513px;
+  height: 640px;
+}
+main .desc .txts {
+  padding-top: 100px;
+}
+main .desc .txts .hder {
+  font-size: 4.3rem;
+  font-weight: bold;
+}
+main .desc .txts .descp {
+  padding: 70px 50px 70px 0;
+}
+main .desc .txts .descp p {
+  margin-bottom: 60px;
+  color: hsl(0deg, 0%, 41%);
+  line-height: 1.5;
+}
+main .desc .txts .descp .bbut .btn {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
+main .desc .txts .descp .bbut .btn a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 98%);
+}
+main .desc .txts .descp .bbut .btn:hover {
+  background-color: hsl(0deg, 0%, 98%);
+}
+main .desc .txts .descp .bbut .btn:hover a {
+  color: hsl(0deg, 0%, 8%);
+}
+main .desc .txts .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1114px) {
+  main .mn-sect {
+    overflow: hidden;
+  }
+  main .mn-sect .banner {
+    float: right;
+  }
+}
+@media (max-width: 1114px) {
+  main .mn-sect .banner {
+    width: 100%;
+  }
+}
+@media (max-width: 945px) {
+  nav .navsect .desktop {
+    display: none;
+  }
+  nav .navsect .mobile {
+    display: block;
+  }
+  main {
+    padding: 0;
+  }
+  main .mn-sect {
+    padding: 0;
+  }
+  main .mn-sect .banner {
+    width: 100%;
+    height: 500px;
+  }
+  main .mn-sect .banner #imgdesk {
+    display: none;
+  }
+  main .mn-sect .banner #imgmob {
+    display: block;
+  }
+  main .mn-sect .banner img {
+    width: 100%;
+    height: 100%;
+  }
+  main .mn-sect .desc {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+  }
+  main .mn-sect .desc .txts .hder {
+    font-size: 2rem;
+  }
+  main .mn-sect .desc .txts .descp {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 60px 0;
+    font-size: 18px;
+    color: hsl(0deg, 0%, 41%);
+    line-height: 1.5;
+    padding: 0;
+  }
+  main .mn-sect .desc .txts .descp p {
+    width: 100%;
+  }
+  main .mn-sect .desc .social {
+    display: block;
+  }
+}
+@media (max-width: 450px) {
+  main .mn-sect .banner {
+    height: 300px;
+  }
+}/*# sourceMappingURL=mytest.css.map */

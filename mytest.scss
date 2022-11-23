@@ -1,0 +1,368 @@
+$AlW: hsl(0, 0%, 98%);
+$MedG: hsl(0, 0%, 41%);
+$AlB: hsl(0, 0%, 8%);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body{
+    background-color: $AlW;
+}
+
+nav{
+
+    #mySidenav{
+        width: 60%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+        padding: 20px;
+        color: $MedG;
+        z-index: 100;
+
+        
+        .sidenam{
+        
+            
+                margin-bottom: 30px;
+           a:hover{
+            color: $AlB
+           }
+            > div{
+                padding: 10px 0;
+                
+                        a{
+                            text-decoration: none;
+                            color: $MedG;
+                        }
+    
+                        a + div{
+                            
+                            margin-top: 20px;
+                            margin-left: 20px;
+    
+                            div{
+                                padding: 10px 0;
+                            }
+                            div:hover{
+                                color: $AlB;
+                            }
+                        }
+            }
+            
+           span{
+                padding-left: 10px;
+            }
+            .close-m{
+                        height: 60px;
+                        svg{
+                            float: right;
+                        }
+            }
+        }
+    
+        .side-btn{
+                
+            div{
+                text-align: center;
+                padding: 10px 0;
+                
+            }
+    
+            .regi{
+                margin-top: 10px;
+                border: 2px solid $MedG;
+                border-radius: 15px;
+            }
+        }
+    
+        .side-btn{
+            .login:hover , .regi:hover{
+                color: black;
+            }
+            .regi:hover{
+                border-color: black;
+            }
+        }
+      }
+    .navsect{
+        padding: 21px 40px;
+        overflow: hidden;
+        
+        
+        .mobile{
+            .logo,.menu{
+                display: inline-block;
+            }
+    
+            .menu{
+                float: right;
+            }
+        }
+
+        img,a{
+            float: left;
+            display: block;
+            padding: 15px 22px;
+            color: $MedG;
+                    text-decoration: none;
+        }
+        img{
+            
+            height: 55px;
+        }
+        a:hover{
+            color: $AlB;
+        }
+        span svg{
+            height: 9px;
+        }
+        a span{
+            margin-left: 9px;
+        }
+       .left-s{
+            float: left;
+
+            #fetli{
+                position: absolute;
+                top: 10%;
+                left: 100px;
+                color: $MedG;
+                box-shadow: 0 0 5px $MedG;
+                padding: 24px;
+                border-radius: 10px;
+                >div:not(:last-child){
+                    margin-bottom: 18px;
+                }
+
+                >div svg{
+                    margin-right: 15px;
+                }
+                >div:hover{
+                    color: $AlB;
+                }
+
+            }
+
+            #sub{
+                position: absolute;
+                top: 10%;
+                left: 300px;
+                color: $MedG;
+                box-shadow: 0 0 5px $MedG;
+                padding: 24px;
+                border-radius: 10px;
+                >div:not(:last-child){
+                    margin-bottom: 18px;
+                }
+                >div:hover{
+                    color: $AlB;
+                }
+            }
+        }
+        
+        .btn-side{
+            float: right;
+            #regi{
+               border: 2px solid $MedG;
+                border-radius: 10px;
+
+            }
+            #regi:hover{
+                
+                    border-color: $AlB;
+                
+            }
+        }
+    }
+}
+
+main{
+
+    .mn-sect{
+        padding: 45px 129px 45px 165px;
+        
+        position: relative;
+    .banner{
+        width: 484px;
+        
+        img{
+            width: 100%;
+            height: 640px;
+               
+        }
+    }
+}
+
+.desc{
+    width: 513px;
+   height: 640px; 
+
+   .txts{
+    padding-top: 100px;
+    .hder{
+        font-size: 4.3rem;
+        font-weight: bold;
+    }
+    .descp{
+        padding: 70px 50px 70px 0;
+
+        p{
+            margin-bottom: 60px;
+            color: $MedG;
+            line-height: 1.5;
+        }
+
+        .bbut{
+            .btn{
+                padding: 20px;
+                border-radius: 20px;
+                background-color: black;
+                a{
+                    text-decoration: none;
+                    color: $AlW;
+                }
+            }
+            .btn:hover{
+                background-color: $AlW;
+                a{
+                    color: $AlB;
+                }
+            }
+        }
+
+        
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
+   }
+}
+}
+
+@media (min-width: 1114px) {
+
+
+    main{
+
+        .mn-sect{
+            overflow: hidden;
+            
+            .banner{
+                float: right;
+
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1114px) {
+    main{
+
+        .mn-sect{
+
+            .banner{
+                
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 945px) {
+
+    nav{
+
+        .navsect{
+            
+            .desktop{
+                display: none;
+            }
+            .mobile{
+                display: block;
+            }
+        }
+    }
+
+    main{
+        padding: 0;
+
+        .mn-sect{
+            padding: 0;
+            .banner{
+                width: 100%;
+               height: 500px;
+
+               #imgdesk{
+                display: none;
+               }
+
+               #imgmob{
+                display: block;
+               }
+               img{
+                width: 100%;
+                height: 100%;
+               }
+            }
+
+            .desc{
+                padding: 0 15px;
+                width: 100%;
+                text-align: center;
+                .txts{
+                   
+
+                    .hder{
+                font-size: 2rem;
+                        
+                    }
+                    .descp{
+                        width: 100%;
+                        
+                        text-align: center;
+                        margin: 30px 0 60px 0;
+                font-size: 18px;
+                color: $MedG;
+                line-height: 1.5;
+                padding: 0;
+
+                p{
+                    
+                    width: 100%;
+                }
+                    }
+                }
+
+                .social{
+                    display: block;
+                }
+            }
+           
+        }
+
+    }
+}
+
+@media (max-width: 450px) {
+
+    main{
+
+        .mn-sect{
+            .banner{
+                height: 300px;
+            }
+        }
+    }
+    
+}
