@@ -110,13 +110,13 @@ nav .navsect .left-s #fetlid {
   padding: 24px;
   border-radius: 10px;
 }
-nav .navsect .left-s #fetli > div:not(:last-child) {
+nav .navsect .left-s #fetlid > div:not(:last-child) {
   margin-bottom: 18px;
 }
-nav .navsect .left-s #fetli > div svg {
+nav .navsect .left-s #fetlid > div svg {
   margin-right: 15px;
 }
-nav .navsect .left-s #fetli > div:hover {
+nav .navsect .left-s #fetlid > div:hover {
   color: hsl(0deg, 0%, 8%);
 }
 nav .navsect .left-s #subd {
@@ -128,10 +128,10 @@ nav .navsect .left-s #subd {
   padding: 24px;
   border-radius: 10px;
 }
-nav .navsect .left-s #sub > div:not(:last-child) {
+nav .navsect .left-s #subd > div:not(:last-child) {
   margin-bottom: 18px;
 }
-nav .navsect .left-s #sub > div:hover {
+nav .navsect .left-s #subd > div:hover {
   color: hsl(0deg, 0%, 8%);
 }
 nav .navsect .btn-side {
