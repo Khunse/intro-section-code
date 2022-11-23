@@ -101,7 +101,7 @@ nav .navsect a span {
 nav .navsect .left-s {
   float: left;
 }
-nav .navsect .left-s #fetli {
+nav .navsect .left-s #fetlid {
   position: absolute;
   top: 10%;
   left: 100px;
@@ -119,7 +119,7 @@ nav .navsect .left-s #fetli > div svg {
 nav .navsect .left-s #fetli > div:hover {
   color: hsl(0deg, 0%, 8%);
 }
-nav .navsect .left-s #sub {
+nav .navsect .left-s #subd {
   position: absolute;
   top: 10%;
   left: 300px;
